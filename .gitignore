@@ -1,0 +1,10 @@
+.DS_Store
+*.pem
+*.key
+.env
+.env.*
+.aws/
+credentials
+config
+*.csv
+

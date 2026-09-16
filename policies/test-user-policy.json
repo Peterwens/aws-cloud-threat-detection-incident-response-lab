@@ -1,0 +1,15 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowControlledTestActivity",
+      "Effect": "Allow",
+      "Action": [
+        "sts:GetCallerIdentity",
+        "iam:GetUser",
+        "iam:ListUsers"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
